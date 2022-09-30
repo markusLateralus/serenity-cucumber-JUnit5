@@ -1,4 +1,4 @@
-package Ainiciacion;
+ package Ainiciacion;
 
 /*
  *  1º descarga git

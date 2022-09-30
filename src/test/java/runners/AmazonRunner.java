@@ -15,6 +15,6 @@ import org.junit.runner.RunWith;
        // features="src/test/resources/features/buscar/buscarPorPrecios.feature",
 		//	features="src/test/resources/features/buscar/BuscarProductosMenorCienEuros.feature",
 glue= "steps"  )
-public class RealizarLoginRunner {
+public class AmazonRunner {
 
 }
