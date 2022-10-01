@@ -5,7 +5,7 @@ import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pageFactory.PageBuscador;
+import pageFactory.PageBuscar;
 
 //import org.junit.jupiter.api.Assertions.*;
 
@@ -34,7 +34,7 @@ public class BuscarStep{
 
 	String URL="https://www.amazon.es";
 	//PageBuscador pageBuscador;
-	PageBuscador pageBuscador=new PageBuscador(URL);
+	PageBuscar pageBuscador=new PageBuscar(URL);
 /*	
 	@Before
 	public void setup() {

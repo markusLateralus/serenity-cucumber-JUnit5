@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 		//features="src/test/resources/features/login/RealizarLogin.feature", //ok
 		//features="src/test/resources/features/login/borrar/Buscar.feature", // FALSE
 		//	features="src/test/resources/features/mal/loginIncorrecto.feature",  FASLE
-        features="src/test/resources/features/buscar/buscarPorPrecios.feature",
+        features="src/test/resources/features",
 		
 glue= "steps"  )
 public class AmazonRunTest {

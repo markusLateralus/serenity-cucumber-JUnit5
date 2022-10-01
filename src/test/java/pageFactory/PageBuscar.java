@@ -6,10 +6,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class PageBuscador extends BasePage{
+public class PageBuscar extends BasePage{
 	
 
-	public PageBuscador(String URL) {
+	public PageBuscar(String URL) {
 	super(URL);
 		PageFactory.initElements(this.driver, this);
 	}

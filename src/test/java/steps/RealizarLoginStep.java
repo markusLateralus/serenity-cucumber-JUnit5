@@ -42,7 +42,7 @@ public void se_hace_click_en_el_boton(String string) {
 public void debe_aparecer_el_mensaje(String string) {
 	//Assertions.assertEquals(valorDeseado, valorEsperado);
 	  CapturarPantalla.hacerCapturaPantalla(pageIniciarSesion.driver, "leer mensaje Logado correctamente");
-	assertEquals(string, pageIniciarSesion.leerMensajeBienvenida());
+	assertEquals(string, pageIniciarSesion.leerMensajeBienvenida(), "debe coincidir el nombre de usuario");
 }
 @After()
 public void closeBrowser() {
